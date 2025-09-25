@@ -1,0 +1,10 @@
+model_name: "inception"
+num_classes: 4
+image_size: [299, 299]
+batch_size: 32
+epochs: 20
+learning_rate: 0.001
+optimizer: "adam"
+pretrained: true
+train_data_dir: "data/processed/train"
+val_data_dir: "data/processed/val"

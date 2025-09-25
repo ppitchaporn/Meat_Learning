@@ -1,0 +1,10 @@
+model_name: "vgg"
+num_classes: 4
+image_size: [224, 224]
+batch_size: 32
+epochs: 20
+learning_rate: 0.001
+optimizer: "adam"
+pretrained: true
+train_data_dir: "data/processed/train"
+val_data_dir: "data/processed/val"
